@@ -27,7 +27,7 @@ public class Controller {
                 pintarDibujos(newValue.intValue());
             }
         });
-        cmbOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella", "Estrella doble");
+        cmbOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella", "Estrella doble", "Circulo de la Exentacion");
 
         context=lienzo.getGraphicsContext2D();
         /*context.fillRect(10,20,100,50);
@@ -83,6 +83,34 @@ public class Controller {
             }
 
         }else if (cmbOpciones.getSelectionModel().getSelectedIndex()==3){
+            int radAnch=((int) lienzo.getWidth()/2);
+            int radAlt=((int) lienzo.getHeight()/2);
+            context.strokeLine(radAnch,0,radAnch,lienzo.getHeight());
+            context.strokeLine(0,radAlt,lienzo.getWidth(),radAlt);
+            int div=radAnch/valor;
+            for (int j=1;j<valor+1;j++){
+                context.strokeOval(radAnch,div,400,400);
+            }
+            for (int j=1;j<valor+1;j++){
+                context.strokeOval(div,radAnch,400,400);
+            }
+            for (int j=1;j<valor+1;j++){
+                context.strokeOval(div,radAnch,400,400);
+            }
+            for (int j=1;j<valor+1;j++){
+                context.strokeOval(radAnch,radAlt,400,400);
+            }
+
+        }else if (cmbOpciones.getSelectionModel().getSelectedIndex()==4){
+
+            int centh=((int) lienzo.getHeight()/2);
+            int centa=((int) lienzo.getWidth()/2);
+            int div=centa/valor;
+            context.strokeOval(centh-200,centa-300,400,400);
+            context.strokeOval(centh-200,centa-300,10,10);
+            for (int i=0;i<valor+1;i++){
+                context.strokeOval(centh,centa,400,400);
+            }
 
         }
 

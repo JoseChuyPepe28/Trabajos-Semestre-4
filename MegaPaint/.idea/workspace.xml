@@ -195,6 +195,9 @@
       <workItem from="1616114814107" duration="1643000" />
       <workItem from="1616172210246" duration="3965000" />
       <workItem from="1616179943157" duration="283000" />
+      <workItem from="1616195720970" duration="76000" />
+      <workItem from="1616537103339" duration="655000" />
+      <workItem from="1616540945330" duration="2349000" />
     </task>
     <servers />
   </component>
@@ -206,26 +209,34 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1616180231874">
+    <state x="739" y="265" key="FileChooserDialogImpl" timestamp="1616195786634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616180231874" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1616180231874">
+    <state x="739" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616195786633" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1616543322598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616180231874" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1616180231874">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616543322598" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1616543322598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616180231874" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1616180231874">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616543322598" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1616543322598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616180231874" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1616179940878">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616543322598" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1616543322598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616179940878" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616543322598" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1616541063111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616541063111" />
+    <state x="342" y="229" key="new project wizard" timestamp="1616195792601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="229" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616195792601" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MegaPaint$Main.ic" NAME="Main Coverage Results" MODIFIED="1616027075056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
